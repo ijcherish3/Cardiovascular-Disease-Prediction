@@ -47,3 +47,15 @@ The dataset contains medical examination data including:
 - Confusion matrix
 - ROC curve
 - Feature importance plot
+
+---
+
+## How to Run the Project
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Open Jupyter Notebook:
+Heart Disease Prediction.ipynb
+
+3. Run all cells to reproduce results.
