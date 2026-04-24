@@ -24,7 +24,7 @@ The dataset contains medical examination data including:
 
 ---
 
-## echniques Applied
+## Techniques Applied
 - Data cleaning and preprocessing
 - Feature scaling (StandardScaler)
 - Handling class imbalance (class weights + scale_pos_weight)
