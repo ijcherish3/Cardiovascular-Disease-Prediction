@@ -62,3 +62,8 @@ pip install -r requirements.txt
 Heart Disease Prediction.ipynb
 
 3. Run all cells to reproduce results.
+
+---
+
+## Key Insight
+Feature importance analysis showed that systolic blood pressure (ap_hi) and cholesterol levels were the strongest predictors of cardiovascular disease.
