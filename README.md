@@ -27,6 +27,7 @@ The dataset contains medical examination data including:
 ## Techniques Applied
 - Data cleaning and preprocessing
 - Feature scaling (StandardScaler)
+- One-hot encoding for categorical variables (gender, cholesterol, glucose)
 - Handling class imbalance (class weights + scale_pos_weight)
 - Cross-validation (5-fold CV)
 - Hyperparameter tuning (GridSearchCV)
@@ -36,7 +37,8 @@ The dataset contains medical examination data including:
 ---
 
 ## Results
-- Best Model: XGBoost / Tuned Random Forest
+- Best Performing Model: Tuned Random Forest (slightly higher accuracy)
+- XGBoost achieved the best ROC-AUC (better ranking performance)
 - Accuracy: ~0.73
 - ROC-AUC (XGBoost): ~0.79
 
