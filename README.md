@@ -25,14 +25,15 @@ The dataset contains medical examination data including:
 ---
 
 ## Techniques Applied
-- Data cleaning and preprocessing
-- Feature scaling (StandardScaler)
+- Data cleaning and preprocessing (removal of invalid medical values and ID column)
+- Feature scaling using StandardScaler for numerical variables
 - One-hot encoding for categorical variables (gender, cholesterol, glucose)
-- Handling class imbalance (class weights + scale_pos_weight)
-- Cross-validation (5-fold CV)
-- Hyperparameter tuning (GridSearchCV)
-- Model evaluation (Accuracy, F1-score, ROC-AUC)
-- Feature importance analysis
+- Handling class imbalance using class weights and XGBoost scale_pos_weight
+- Machine learning pipelines using Scikit-learn Pipeline for structured preprocessing + modeling
+- 5-fold cross-validation for robust model evaluation
+- Hyperparameter tuning using GridSearchCV (Random Forest optimization)
+- Model evaluation using Accuracy, F1-score, and ROC-AUC
+- Feature importance analysis for model interpretability (XGBoost)
 
 ---
 
